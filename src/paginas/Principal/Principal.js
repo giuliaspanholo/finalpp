@@ -1,19 +1,24 @@
 import {Fundo, Imagem, CardP, CardR} from './Principal.jsx'
 import ImgPraia from '../../assets/praia-som.webp'
-
+import ImgFogueira from '../../assets/fogueira.jpg'
 
 
 function Principal (){
     return(
         <>
         <Fundo>
+            
         <Imagem src={ImgPraia}/>
-            <CardP>
+        <Imagem src={ImgFogueira}/>
         
-            </CardP>
-            <CardR>
-                
-            </CardR>
+        <CardP>
+
+        </CardP>
+
+        <CardR>   
+
+        </CardR>
+
         </Fundo>
         </>
     )
