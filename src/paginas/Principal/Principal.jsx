@@ -9,30 +9,34 @@ export const Fundo = styled.div`
 `
 export const CardP = styled.div`
     background: #fff;
-    width: 70%;
-    height: 7vh;
+    width: 42vh;
+    height: 8vh;
     padding: 1rem;
-    border-radius: 12px;
-    margin-left: 60px;
+    border-radius: 30vh;
+    margin-left: 1vh;
     align-items: center;
-    margin-top: -0%;
+    margin-top: 15%;
+    display: flex;
+    
     
 `
 export const CardR = styled.div`
     background: #fff;
-    width: 70%;
-    height: 7vh;
+    width: 42vh;
+    height: 8vh;
     padding: 1rem;
-    border-radius: 12px;
-    margin-left: 60px;
+    border-radius: 30vh;
+    margin-left: 1vh;
     align-items: center;
-    margin-top: -70%;
+    margin-top: 2%;
     
 `
-export const Imagem = styled.img`
-    min-height: 5vh;
-    width: 35%;
-    margin-left:5vh;
-    border-radius: 12px;
-    margin-top: 30%;
+
+export const Img = styled.img`
+    height: 8vh;
+    width: 23%;
+    margin-left:2vh;
+    margin-top: 0vh;
+    
+
 `
