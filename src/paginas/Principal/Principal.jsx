@@ -9,7 +9,7 @@ export const Fundo = styled.div`
 `
 export const CardP = styled.div`
     background: #fff;
-    width: 42vh;
+    width: 43vh;
     height: 8vh;
     padding: 1rem;
     border-radius: 30vh;
@@ -22,7 +22,7 @@ export const CardP = styled.div`
 `
 export const CardR = styled.div`
     background: #fff;
-    width: 42vh;
+    width: 43vh;
     height: 8vh;
     padding: 1rem;
     border-radius: 30vh;
@@ -35,8 +35,17 @@ export const CardR = styled.div`
 export const Img = styled.img`
     height: 8vh;
     width: 23%;
-    margin-left:2vh;
+    margin-left:1vh;
     margin-top: 0vh;
     
 
 `
+
+export const Imagem = styled.img`
+     height: 8vh;
+    width: 23%;
+    margin-left:1vh;
+    margin-top: -2vh;
+
+`
+

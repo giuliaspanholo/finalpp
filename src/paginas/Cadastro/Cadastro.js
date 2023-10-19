@@ -1,5 +1,6 @@
 import { Fundo, Estilo, Card } from "./Cadastro.jsx"
 import { Input, Button, Text } from '@chakra-ui/react'
+
 import {Link} from "react-router-dom"
 
 function Cadastro() {
