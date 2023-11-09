@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 
+
 export const Fundo = styled.div`
     background: #0D0C4E;
     width: 100vw;
@@ -46,6 +47,13 @@ export const Imagem = styled.img`
     width: 23%;
     margin-left:1vh;
     margin-top: -2vh;
+
+`
+
+export const Imagem1 = styled.img`
+    width: 40%;
+    margin-left: 50px;
+    border-radius: 30%;
 
 `
 

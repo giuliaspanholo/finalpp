@@ -1,9 +1,21 @@
 import styled from 'styled-components';
 
-export const Cor = styled.div`
-    background: #000000ed;
+export const MenuContainer = styled.div`
+    background: #000;
+    bottom: 0;
+    position: fixed;
+    display: flex;    
     width: 100vw;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
+    height: 10vh;
+    padding-left: 2vh;
+    padding-right: 2vh;
+    align-items: center;
+
 `
+export const BotaoNavegacao = styled.button`
+    background: none;
+    border: none;
+
+`
+
+

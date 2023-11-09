@@ -12,3 +12,16 @@ export const Img = styled.img`
     height: 33vh;
     width: 100%;
 `
+
+export const Texto1 = styled.div`
+    color: #0D99FF;
+    font-family: Poppins;
+    
+
+`
+
+export const Texto2 = styled.div`
+    font-family: Poppins;
+    
+
+`
