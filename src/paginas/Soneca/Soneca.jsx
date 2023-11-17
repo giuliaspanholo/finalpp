@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Fundo = styled.div`
-    background: #0D0C4E;
+    background: #075BA9;
     width: 100vw;
     height: 100vh;
     display: flex;

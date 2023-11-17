@@ -1,9 +1,9 @@
-import { Fundo } from "./Fogueira.jsx"
+import { Fundo} from "./Floresta.jsx"
 import { Stack, Button } from "@chakra-ui/react"
 import { Link } from "react-router-dom"
-import { Musica } from "./Fogueira.jsx"
+import { Musica } from "./Floresta.jsx"
 
-function Fogueira (){
+function Floresta (){
       
     return(
         <>
@@ -16,20 +16,19 @@ function Fogueira (){
             </Button>
             </Link>
             </Stack>
-
-
+            
             <Stack
                 direction='row'
                 spacing={4} align='center'>
-            <Musica>
 
-            <iframe src="https://open.spotify.com/embed/track/1A9DrO6NNRpifpOkX9Ugq6?utm_source=generator&theme=0" width="100%" height="370" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-            </Musica>  
-            </Stack>
-            
+                <Musica>
+
+                <iframe src="https://open.spotify.com/embed/track/4NQT20EoRo4wZvjBhWpzez?utm_source=generator&theme=0" width="100%" height="352"  allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                </Musica>
+        </Stack>
         </Fundo>
         </>
     )
 }
 
-export default Fogueira
+export default Floresta

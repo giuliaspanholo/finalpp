@@ -9,7 +9,10 @@ export const Fundo = styled.div`
     flex-direction: column;
 `
 
+
+
 export const Musica = styled.div`
    margin-top: 100px;
    margin-left: 50px;
 `
+

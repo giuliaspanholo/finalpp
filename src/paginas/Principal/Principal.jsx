@@ -51,9 +51,32 @@ export const Imagem = styled.img`
 `
 
 export const Imagem1 = styled.img`
-    width: 40%;
-    margin-left: 50px;
+    width: 43%;
+    margin-left: -200px;
     border-radius: 30%;
+    margin-top: -40%;
+
+`
+export const Imagem2 = styled.img`
+    width: 40%;
+    margin-left: 200px;
+    border-radius: 30%;
+    margin-top: -65%;
+
+`
+export const Imagem3 = styled.img`
+    width: 40%;
+    margin-left: -200px;
+    border-radius: 30%;
+    margin-top: -40%;
+
+`
+
+export const Imagem4 = styled.img`
+    width: 40%;
+    margin-left: 220px;
+    border-radius: 30%;
+    margin-top: -18%;
 
 `
 
