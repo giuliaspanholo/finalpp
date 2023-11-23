@@ -1,12 +1,14 @@
-import { Fundo, Img1 } from "./BoaN.jsx"
+import { Fundo, Img, Img1, Titulo, CardM } from "./BoaN.jsx"
 import { Stack, Button } from "@chakra-ui/react"
 import { Link } from "react-router-dom"
 import ImagemNuv from "../../assets/nuvem.webp"
+import ImagemMsc from "../../assets/msc.png"
+
 function BoaN (){
     const buttonStyle = {
         position: 'absolute',
         top: '11px',
-        left: '16px', // Ajuste a posição horizontal conforme necessário
+        left: '16px', 
       };
     return(
         <>
@@ -19,8 +21,17 @@ function BoaN (){
             </Button>
             </Link>
             </Stack>
+
             
         <Img1 src={ImagemNuv}/>
+
+        <Titulo>
+           BOA NOITE...
+           </Titulo>
+
+        <CardM>
+            <Img src={ImagemMsc}/>
+        </CardM>
         </Fundo>
         </>
     )

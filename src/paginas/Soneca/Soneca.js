@@ -1,31 +1,76 @@
-import {Fundo} from './Soneca.jsx'
+import { Fundo, Titulo, Text, ImgFiguras,ContainerImg } from './Soneca.jsx'
 import Footer from '../../componentes/footer/Footer.js'
 import { Link } from 'react-router-dom'
-import { Button, Stack} from '@chakra-ui/react'
+import { Button, Stack } from '@chakra-ui/react'
 
-function Soneca (){
-      
-    return(
+import { ambiente, sentimentos } from '../../sonecaArray.js'
+
+
+function Soneca() {
+
+    const arraySentimentos = sentimentos.map((sentimento)=>{
+        return(
+            <div key={sentimento.id}>
+                <ImgFiguras src={sentimento.url_img} alt='descricao imagem' />
+                <p style={{ color: 'white' }}>{sentimento.nome_img}</p>
+
+            </div> 
+
+        )
+    })
+
+    const arrayAmbiente = ambiente.map((sentimento)=>{
+        return(
+            <div key={sentimento.id}>
+                <ImgFiguras src={sentimento.url_img} alt='descricao imagem' />
+                <p style={{ color: 'white' }}>{sentimento.nome_img}</p>
+            </div>
+
+        )
+    })
+
+
+
+    return (
         <>
-        
-        <Fundo>
 
-        <Link to="/BoaN">
-            <Button background="#0D99FF"color='white' height='50px'width='40%'marginLeft='30%'borderRadius='70px'marginTop='700px'>CONCLUÍDO</Button>
-            </Link>
+            <Fundo>
 
-            <Stack direction='row' spacing={4} align='center'>
-               
-            <h1 colorScheme='white' variant='ghost' color='white' marginTop='100px'>
-            ADICIONAR SEUS DADOS ANTES DE DORMIR
-            </h1>
-           
-            </Stack>
-            <Footer/>
 
-        </Fundo>
+                <Stack align={'center'} gap={8}>
+
+                    <Titulo>
+                        ADICIONAR SEUS DADOS ANTES DE DORMIR
+                    </Titulo>
+                    <Text>
+                        Como você se sente?
+                    </Text>
+
+
+                    <ContainerImg>
+                       {arraySentimentos}
+                    </ContainerImg>
+
+
+                    <Text>
+                    Ambiente
+                    </Text>
+
+
+                    <ContainerImg>
+                       {arrayAmbiente}
+                    </ContainerImg>
+
+
+
+                    <Link to="/BoaN">
+                        <Button background="#5FA1AF" color='000000' height='50px' width='50vw'  borderRadius='10px' marginTop='50px' fontWeight='bold' >CONCLUÍDO</Button>
+                    </Link>
+                </Stack>
+                <Footer />
+
+            </Fundo>
         </>
     )
 }
-
 export default Soneca

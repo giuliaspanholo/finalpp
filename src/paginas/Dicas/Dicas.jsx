@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Fundo = styled.div`
-    background: #075BA9;
+    background: #0E7A8F;
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -22,6 +22,6 @@ export const Texto1 = styled.div`
 
 export const Texto2 = styled.div`
     font-family: Poppins;
-    
+    width: 80vw;
 
 `
