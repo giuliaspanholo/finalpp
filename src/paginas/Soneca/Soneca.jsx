@@ -32,7 +32,7 @@ export const ContainerImg = styled.div`
 export const Text = styled.div`
     align-self: flex-start;
     font-weight: 600; 
-    color: #0D0C4E; 
+    color: #D4F1F4; 
 
 `;
 export const ImgFiguras = styled.img`

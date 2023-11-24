@@ -1,12 +1,12 @@
 import styled from 'styled-components';
 
 export const Fundo = styled.div`
-    background: #0D0C4E;
+    background: #0E7A8F;
     width: 100vw;
     height: 100vh;
 `
 export const CardLogin = styled.div`
-    background: #0d0c4e;
+    background: #0E7A8F;
     width: 80%;
     min-height: 40vh;
     padding: 1rem;

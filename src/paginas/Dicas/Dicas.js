@@ -1,6 +1,7 @@
 import { Fundo, Img, Texto1, Texto2 } from './Dicas.jsx'
 import Floresta from '../../assets/floresta.jpg'
 import Footer from '../../componentes/footer/Footer.js'
+import { color } from '@chakra-ui/react'
 
 
 function Dicas() {

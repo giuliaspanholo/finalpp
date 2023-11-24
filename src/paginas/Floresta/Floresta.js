@@ -12,7 +12,7 @@ function Floresta (){
         <Stack direction='row' spacing={4} align='center'>
                <Link to="/Principal">
             <Button colorScheme='white' variant='ghost' color='white' marginTop='11px'>
-            ᐸ
+            ᐸ-Voltar
             </Button>
             </Link>
             </Stack>

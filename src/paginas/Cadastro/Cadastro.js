@@ -18,14 +18,14 @@ function Cadastro() {
                     <Text mb='8px'mr='80%'color='white'mt='5'>Senha:</Text>
                         <Input variant='Senha' placeholder='Senha' />
 
-                    <Text mb='8px'mr='50%'color='white'mt='5'>Confirmar Senha:</Text>
+                    <Text mb='8px'mr='45%'color='white'mt='5'>Confirmar Senha:</Text>
                         <Input variant='Confirmar senha' placeholder='Confirmar senha' />
 
                     </Estilo>
                     
                 </Card>
-                <Link to='/Principal'>
-                <Button background="#0D99FF" mt='60'color='white' height='50px' width='120%' borderRadius='70px' fontFamily='arial'>LOGIN</Button>
+                <Link to='/Login'>
+                <Button background="#5FA1AF" mt='60'color='white' height='50px' width='120%' borderRadius='70px' fontFamily='arial'>LOGIN</Button>
                 </Link>
             </Fundo>
         </>

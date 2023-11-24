@@ -22,15 +22,18 @@ function Principal() {
         },
         {
             img: ImagemChu,
-            text: "Som da Chuva"
+            text: "Som da Chuva",
+            link: '/Chuva'
         },
         {
             img: Praia,
-            text: "Som do mar"
+            text: "Som do mar",
+            link: '/Ondas'
         },
         {
             img: Flore,
-            text: "Floresta"
+            text: "Floresta",
+            link: '/Floresta'
         }
     ]
 

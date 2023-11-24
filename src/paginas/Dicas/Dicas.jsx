@@ -14,7 +14,7 @@ export const Img = styled.img`
 `
 
 export const Texto1 = styled.div`
-    color: #0D99FF;
+    color: #D4F1F4;
     font-family: Poppins;
     
 

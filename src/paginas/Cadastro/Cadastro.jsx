@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Fundo = styled.div`
-    background: #0D0C4E;
+    background: #0E7A8F;
     min-width: 100vw;
     min-height: 100vh;
     margin: 0;

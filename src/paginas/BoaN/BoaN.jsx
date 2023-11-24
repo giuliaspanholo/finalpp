@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Fundo = styled.div`
-    background: #0D0C4E;
+    background: #05445E;
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -19,7 +19,7 @@ display:none;
 
 export const Titulo = styled.div`
     width: 80%;
-    color: #075BA9;
+    color: #D4F1F4;
     font-size: 20px; 
     font-family: 'Inika', sans-serif; 
     font-weight: bold; 
@@ -32,9 +32,10 @@ export const Titulo = styled.div`
 `;
 
 export const CardM = styled.div`
- background: #1B3475;
+    background: #D4F1F4;
     width: 42vh;
     height: 9vh;
+    border-radius: 10px;
     padding: 1rem;
     margin-left: 2vh;
     margin-top: 35%;

@@ -16,7 +16,7 @@ const Alarme = () => {
 
   useEffect(() => {
     if (horaAlarme && agora >= horaAlarme && !alarmeAtivo) {
-      alert('Alarme disparado!');
+      alert('Alarme!!!');
       setAlarmeAtivo(true); // Desativa o alarme após disparado
     }
   }, [agora, horaAlarme, alarmeAtivo]);
@@ -31,14 +31,20 @@ const Alarme = () => {
 
   return (
     <div>
-      <p>Agora: {agora.toLocaleTimeString()}</p>
+      <p style={{ color: 'white', fontFamily: 'Inika-Bold' }}>Agora: {agora.toLocaleTimeString()}</p>
+
+
       <input
+      style={{ width:'50vw', height:'5vh', marginLeft: '80px', borderRadius:'10px'}}
         type="time"
         value={horaInput}
         onChange={(e) => setHoraInput(e.target.value)}
       />
-      <button onClick={definirAlarme}>Definir Alarme</button>
-      {horaAlarme && <p>Hora do Alarme: {horaAlarme.toLocaleTimeString()}</p>}
+
+
+
+      <button style={{ background:'#05445E',color: 'white', fontFamily: 'Inika-Bold', marginTop:'50px' }}onClick={definirAlarme}>Definir Alarme</button>
+      {horaAlarme && <p style={{ color: 'white', fontFamily: 'Inika-Bold' }}>Hora do Alarme: {horaAlarme.toLocaleTimeString()}</p>}
     </div>
   );
 };
